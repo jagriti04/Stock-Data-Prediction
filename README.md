@@ -21,11 +21,12 @@ Companies used for Training-
 
 
 Companies used for Testing-
-	1. Aditya Birla Fashion and Retail
+1. Aditya Birla Fashion and Retail
 2. Alkem Laboratories
 3. Bharat Electronics
 4. Dabur
 5. Raymond
 
 Number of samples- ~700 examples for each company
+
 
