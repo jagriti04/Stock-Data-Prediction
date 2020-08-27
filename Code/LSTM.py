@@ -34,7 +34,7 @@ gauth = GoogleAuth()
 gauth.credentials = GoogleCredentials.get_application_default()
 drive = GoogleDrive(gauth)
 
-link = "1eZnbVaqfacerGyM1MISJeO6QYNLSzlvT"
+link = "1eZnbVaqfacerGyM1MISJeO6QYNLSzlvT"       #Shareable link of your data, update this
 
 downloaded = drive.CreateFile({'id':link}) 
 downloaded.GetContentFile('Train Dataset.csv')  
@@ -185,7 +185,7 @@ def print_output(dataset_test):
 Companies used for testing- Raymond, Indian Oil Corporation, Bharat Electronics, SAIL, Spice Jet
 """
 
-link = "1Mw2Ox06nm12029VCfectuzcK22VVLzrX"
+link = "1Mw2Ox06nm12029VCfectuzcK22VVLzrX"                       #Shareable link of your data, update this
 downloaded = drive.CreateFile({'id':link}) 
 downloaded.GetContentFile('Raymond.csv')  
 dataset_test = pd.read_csv('Raymond.csv')
@@ -196,7 +196,7 @@ print("\n")
 
 #########################################################################
 
-link = "1aqw7ZobClGdWpEtwxiizuZDWkUVMKNeP"
+link = "1aqw7ZobClGdWpEtwxiizuZDWkUVMKNeP"                      #Shareable link of your data, update this
 downloaded = drive.CreateFile({'id':link}) 
 downloaded.GetContentFile('Indian Oil Corporation.csv')  
 dataset_test = pd.read_csv('Indian Oil Corporation.csv')
@@ -207,7 +207,7 @@ print("\n")
 
 #########################################################################
 
-link = "1OTh0a3PhB4aj1Vz6zcznKD7hymeOcEqB"
+link = "1OTh0a3PhB4aj1Vz6zcznKD7hymeOcEqB"                    #Shareable link of your data, update this
 downloaded = drive.CreateFile({'id':link}) 
 downloaded.GetContentFile('Bharat Electronics.csv')  
 dataset_test = pd.read_csv('Bharat Electronics.csv')
@@ -218,7 +218,7 @@ print("\n")
 
 #########################################################################
 
-link = "1yXBXJ0dYWF0uo_ZY1rAwqrfqyobGNfCt"
+link = "1yXBXJ0dYWF0uo_ZY1rAwqrfqyobGNfCt"                  #Shareable link of your data, update this
 downloaded = drive.CreateFile({'id':link}) 
 downloaded.GetContentFile('SAIL.csv')  
 dataset_test = pd.read_csv('SAIL.csv')
@@ -228,8 +228,8 @@ print_output(dataset_test)
 print("\n")
 
 #########################################################################
-
-link = "1GgxFp_3cbgnsWMkVncMyaHPH2EqD3YWK"
+ 
+link = "1GgxFp_3cbgnsWMkVncMyaHPH2EqD3YWK"                #Shareable link of your data, update this
 downloaded = drive.CreateFile({'id':link}) 
 downloaded.GetContentFile('SPICEJET.csv')  
 dataset_test = pd.read_csv('SPICEJET.csv')
